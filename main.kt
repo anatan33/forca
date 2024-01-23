@@ -5,10 +5,8 @@ fun main() {
 
     /*
     * feat para obter uma palavra aleatória
-    * */
-    fun getWord(value:Int): Int {
-        return Random.nextInt(0, value)
-    }
+    */
 
+    fun getWord(value: Int):Int = Random.nextInt(0, value)
     println(getWord(words.size))
 }
